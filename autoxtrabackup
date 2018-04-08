@@ -4,7 +4,7 @@
 # Copyright (c) 2014 Gregory Storme
 # Version: 0.2
 
-if [ -f /etc/default/autoxtrabackup ] ; then
+if [ -f /etc/default/autoxtrabackup.cfg ] ; then
         . /etc/default/autoxtrabackup.cfg
 else
 
